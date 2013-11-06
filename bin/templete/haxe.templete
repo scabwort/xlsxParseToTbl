@@ -1,0 +1,24 @@
+package com.youzu.tot.config;
+
+import flash.utils.ByteArray;
+/**
+ * $info
+ * 自动生成，请务修改
+ */
+public class $clsName 
+{		
+$prop
+	public function new()
+	{
+	}
+	
+	static public function parse(bytes:ByteArray):$clsName
+	{
+		var vo:$clsName = new $clsName();
+$reader
+		return vo;
+	}
+}
+||		/** $info */
+		public var $prop:$type;
+||			vo.$prop = $read;

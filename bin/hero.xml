@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<node type="client" xlsx="英雄表.xlsx" page="hero" out="hero.tbl" code="HeroConfig">
+		<item type="int"    name="ID"   code="id" />
+		<item type="string" name="名字" code="name" />
+		<item type="string" name="性别" code="sex" replace="constant.xlsx|性别|性别|代号" gap=";" />
+		<item type="string" name="介绍" code="info" />
+		<item type="string" name="年代" code="age"  />
+		<item type="byte"   name="等级" code="level" />
+		<item type="short"  name="统帅" code="lead" />
+	</node>
+</data>
